@@ -1,0 +1,319 @@
+html,body{
+    scroll-behavior: unset !important;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1170px;
+}
+/* ======================== navbar start here ========================= */
+.nav{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+}
+.nav-logo h1{
+    color: #fff;
+    font-size: 45px;
+}
+.nav-item a{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    padding: 10px 35px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.nav-item a:hover{
+    color: #fff;
+    box-shadow: 5px 10px 18px red;
+}
+.nav.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 999;
+    padding: 10px 0;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+/* =========================== banner part start here=========================== */
+
+#banner{
+    padding: 100px 0;
+    background-color: #000;
+}
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.owner-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.owner-img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+.owner-img img:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.owner-details{
+    width: 500px;
+}
+.owner-details h1{
+    color: #fff;
+}
+.owner-details h3{
+    color: #fff;
+    padding: 20px 0;
+}
+.owner-details p{
+    color: #fff;
+    line-height: 22px;
+    font-size: 14px;
+}
+.common-btn{
+    padding-top: 25px;
+    text-align: center;
+}
+.common-btn a{
+    padding: 20px 35px;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    border-radius: 8px;
+    transition: all linear 0.3s;
+    font-size: 22px;
+}
+.common-btn a:hover{
+    box-shadow: 8px 10px 18px #888888;
+}
+.social-icon{
+    margin-top: 50px;
+    text-align: center;
+}
+.social-icon i{
+    padding: 15px 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #000;
+    transition: all linear 0.3s;
+}
+.social-icon i:hover{
+    box-shadow: 5px 10px 20px red;
+}
+/* =========================== Portflio part start here=========================== */
+#portfloio{
+    background-color: #000;
+    border-top: 5px solid red;
+}
+.common-heading{
+    text-align: center;
+    padding: 45px 0;
+}
+.common-heading h1{
+    padding: 25px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.common-heading h4{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #fff;
+}
+.mixitup-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+    padding-bottom: 25px;
+}
+.mixitup-menu button{
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all linear 0.3s;
+    border-radius: 5px;
+}
+.mixitup-menu button:hover{
+    box-shadow: 8px 10px 18px red;
+}
+.fitures{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #000;
+}
+.fitures-img-box{
+    height: 160px;
+    width: 300px;
+    overflow: hidden;
+}
+.fitures-img-box img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* =========================== typed js cursor design part start here=========================== */
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+.typed{
+    color: #fcba03;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* =========================== form part start here=========================== */
+
+#contact{
+    padding: 100px 0;
+    background-color: #000;
+    border-top: 5px solid red;
+}
+.form{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.form-label{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.email-box{
+    width: 800px;
+}
+.text-box{
+    width: 800px;
+}
+.form-btn{
+    background-color: #fff;
+    color: #fff;
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+    width: 72%;
+    margin-top: 25px;
+}
+.form-btn:hover{
+    box-shadow: 5px 10px 20px red;
+    color: #000;
+    background-color: #fff;
+}
+
+/* =========================== bottom to top btn part start here=========================== */
+
+.bottom-to-top{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-to-top i{
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.bottom-to-top i:hover{
+    box-shadow: 5px 10px 20px red;
+    color: #000;
+}
+
+
+/* =========================== copywrite part start here=========================== */
+
+#copywrite{
+    padding: 25px 0;
+    background-color: #000;
+    border-top: 2px solid red;
+}
+#copywrite h1{
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    text-transform: capitalize;
+}
+/* =========================== cover part start here=========================== */
+/* =========================== cover part start here=========================== */
+/* =========================== cover part start here=========================== */
+/* =========================== cover part start here=========================== */
+/* =========================== cover part start here=========================== */
+/* =========================== cover part start here=========================== */
