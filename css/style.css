@@ -17,12 +17,17 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .container{
     width: 1170px;
+    margin: 0 auto;
 }
 /* ======================== navbar start here ========================= */
 .nav{
     background-color: #000;
     color: #fff;
     padding: 30px 0;
+}
+.menu-bar i{
+    color: #fff;
+    font-size: 18px;
 }
 .nav-logo h1{
     color: #fff;
@@ -320,6 +325,45 @@ h1,h2,h3,h4,h5,h6,p{
     color: #000;
 }
 
+/* =========================== resume part start here=========================== */
+
+#resume{
+    padding: 100px 0;
+    background-color: green;
+    border-top: 2px dotted red;
+}
+.resume-wrapper{
+    display: flex;
+}
+.education{
+    width: 300px;
+    height: 300px;
+    background-color: #fcba03;
+}
+.experience{
+    width: 500px;
+    width: 300px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =========================== copywrite part start here=========================== */
 
@@ -334,7 +378,6 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;
     text-transform: capitalize;
 }
-/* =========================== cover part start here=========================== */
 /* =========================== cover part start here=========================== */
 /* =========================== cover part start here=========================== */
 /* =========================== cover part start here=========================== */

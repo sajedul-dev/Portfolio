@@ -1,0 +1,44 @@
+
+/* ================ Extra small device =============== */
+
+@media(max-width:575.98px){
+
+    /* =========== navbar starat here ========== */
+
+    .container{
+        width: 350px;
+    }
+
+    /* =========== banner starat here ========== */
+
+    .owner-img{
+        display: none;
+    }
+
+     /* =========== portfolio starat here ========== */
+
+     .mixitup-menu button {
+        padding: 10px 4px;
+    }
+    .common-heading h4{
+        line-height: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* =========== navbar starat here ========== */
+    /* =========== navbar starat here ========== */
+
+
+}
