@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #000;
     color: #fff;
     padding: 30px 0;
+    box-shadow: 5px 10px 18px #ffffff8b;
 }
 .menu-bar i{
     color: #fff;
@@ -44,7 +45,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .nav-item a:hover{
     color: #fff;
-    box-shadow: 5px 10px 18px red;
+    box-shadow: 5px 10px 18px #fff;
 }
 .nav.fixed{
     position: fixed;
@@ -77,7 +78,7 @@ h1,h2,h3,h4,h5,h6,p{
     position: relative;
 }
 .owner-img:hover{
-    box-shadow: 5px 8px 15px red;
+    box-shadow: 5px 8px 15px #34ebd35d;
 }
 .owner-img img{
     object-fit: cover;
@@ -88,7 +89,7 @@ h1,h2,h3,h4,h5,h6,p{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #fcba03c0;
+    background-color: #34ebd3b3;
     opacity: 0;
     transition: all linear 0.3s;
     display: flex;
@@ -154,7 +155,7 @@ h1,h2,h3,h4,h5,h6,p{
     transition: all linear 0.3s;
 }
 .social-icon i:hover{
-    box-shadow: 5px 10px 20px red;
+    box-shadow: 5px 10px 20px #888888;
 }
 /* =========================== Portflio part start here=========================== */
 #portfloio{
@@ -197,7 +198,7 @@ h1,h2,h3,h4,h5,h6,p{
     border-radius: 5px;
 }
 .mixitup-menu button:hover{
-    box-shadow: 8px 10px 18px red;
+    box-shadow: 8px 10px 18px #888888;
 }
 .fitures{
     display: flex;
@@ -219,6 +220,50 @@ h1,h2,h3,h4,h5,h6,p{
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+/* =========================== blog part start here=========================== */
+
+#blog{
+    padding: 100px 0;
+    background-color: #000;
+    border-top: 2px solid red;
+}
+.blog-main{
+    height: 420px;
+    width: 380px;
+    background-color: #000;
+  
+} 
+.blog-main:hover{
+    box-shadow: 8px 10px 18px #888888;
+}
+.blog-wrapper{
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+.blog-img{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    overflow: hidden;
+}
+.blog-img img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+.blog-details{
+    padding: 15px 15px;
+    color: #fff;
+}
+.blog-details h1{
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.blog-details p{
+    font-size: 16px;
+    line-height: 18px;
 }
 /* =========================== typed js cursor design part start here=========================== */
 
