@@ -51,6 +51,10 @@ $(function(){
         arrows: false,
         dots:true,
       });
+
+    // aos start here
+
+    AOS.init();
     
 })
 
