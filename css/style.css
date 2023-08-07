@@ -94,19 +94,19 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: blueviolet;
 }
 .blueviolet #banner{
-    background-color: blueviolet;
+    background-color: #f5ad42;
 }
 .blueviolet #portfloio{
     background-color: blueviolet;
 }
 .blueviolet #blog{
-    background-color: blueviolet;
+    background-color: #42f5a7;
 }
 .blueviolet #resume{
     background-color: blueviolet;
 }
 .blueviolet #contact{
-    background-color: blueviolet;
+    background-color: #f57242;
 }
 .blueviolet #copywrite{
     background-color: blueviolet;
@@ -121,16 +121,16 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: red;
 }
 .red #banner{
-    background-color: red;
+    background-color: #42f5f5;
 }
 .red #portfloio{
     background-color: red;
 }
 .red #blog{
-    background-color: red;
+    background-color: #f542dd;
 }
 .red #resume{
-    background-color: red;
+    background-color: #42f5f5;
 }
 .red #contact{
     background-color: red;
@@ -148,22 +148,22 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #32a852;
 }
 .yellow #banner{
-    background-color: #32a852;
+    background-color: #f5424e;
 }
 .yellow #portfloio{
-    background-color: #32a852;
+    background-color: #f5a442;
 }
 .yellow #blog{
     background-color: #32a852;
 }
 .yellow #resume{
-    background-color: #32a852;
+    background-color: #f5424e;
 }
 .yellow #contact{
-    background-color: #32a852;
+    background-color: #f542f5;
 }
 .yellow #copywrite{
-    background-color: #32a852;
+    background-color: #f5e942;
 }
 .yellow #yellow{
     background-color: wheat;
