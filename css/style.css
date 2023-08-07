@@ -4,7 +4,14 @@
     --shadow:5px 10px 18px #ffffff8b;
     --fontprimary:18px;
 
+    --light:300;
+    --regular:400;
+    --medium:500;
+    --semibold:600;
+    --bold:700;
+
 }
+
 html,body{
     scroll-behavior: unset !important;
 }
@@ -26,7 +33,7 @@ h1,h2,h3,h4,h5,h6,p{
 .nav{
     padding: 30px 0;
     background-color: var(--primary);
-    box-shadow: var(--shadow);
+    border-bottom: 2px solid #fff;
 }
 .menu-bar i{
     color: var(--secondary);
@@ -64,21 +71,104 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ================ color swicher operation start here ================== */
-#btn{
+.color-wrapper{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 25px;
+    column-gap: 10px;
 }
-#btn i{
-    color: var(--secondary);
-    font-size: var(--fontprimary);
+.color-wrapper li{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: blueviolet;
     cursor: pointer;
 }
-.white .nav{
-    background-color: red !important;
-    
+.color-wrapper li:nth-child(2){
+    background-color: red;
 }
+.color-wrapper li:nth-child(3){
+    background-color: yellow;
+}
+
+/* ================= .blueviolet operation ================ */
+.blueviolet .navbar{
+    background-color: blueviolet;
+}
+.blueviolet #banner{
+    background-color: blueviolet;
+}
+.blueviolet #portfloio{
+    background-color: blueviolet;
+}
+.blueviolet #blog{
+    background-color: blueviolet;
+}
+.blueviolet #resume{
+    background-color: blueviolet;
+}
+.blueviolet #contact{
+    background-color: blueviolet;
+}
+.blueviolet #copywrite{
+    background-color: blueviolet;
+}
+.blueviolet #blueviolet{
+    background-color: #fff;
+}
+
+/* ================= red operation ================ */
+
+.red .navbar{
+    background-color: red;
+}
+.red #banner{
+    background-color: red;
+}
+.red #portfloio{
+    background-color: red;
+}
+.red #blog{
+    background-color: red;
+}
+.red #resume{
+    background-color: red;
+}
+.red #contact{
+    background-color: red;
+}
+.red #copywrite{
+    background-color: red;
+}
+.red #red{
+    background-color: #000;
+}
+
+/* ====================== yellow operation ======================== */
+
+.yellow .navbar{
+    background-color: #32a852;
+}
+.yellow #banner{
+    background-color: #32a852;
+}
+.yellow #portfloio{
+    background-color: #32a852;
+}
+.yellow #blog{
+    background-color: #32a852;
+}
+.yellow #resume{
+    background-color: #32a852;
+}
+.yellow #contact{
+    background-color: #32a852;
+}
+.yellow #copywrite{
+    background-color: #32a852;
+}
+.yellow #yellow{
+    background-color: wheat;
+}
+
 /* =========================== banner part start here=========================== */
 #banner{
     padding: 100px 0;
@@ -176,6 +266,7 @@ h1,h2,h3,h4,h5,h6,p{
 .social-icon i:hover{
     box-shadow: var(--shadow);
 }
+
 /* =========================== Portflio part start here=========================== */
 #portfloio{
     background-color: var(--primary);
