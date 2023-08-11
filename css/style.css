@@ -90,83 +90,201 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ================= .blueviolet operation ================ */
-.blueviolet .navbar{
-    background-color: blueviolet;
+.blueviolet .nav-item a{
+    color: blueviolet;
 }
-.blueviolet #banner{
-    background-color: #f5ad42;
+.blueviolet .nav-logo h1{
+    color: blueviolet;
 }
-.blueviolet #portfloio{
-    background-color: blueviolet;
+.blueviolet .owner-details h1{
+    color: blueviolet;
 }
-.blueviolet #blog{
-    background-color: #42f5a7;
+.blueviolet .owner-details h3{
+    color: blueviolet;
 }
-.blueviolet #resume{
-    background-color: blueviolet;
+.blueviolet .owner-details p{
+    color: blueviolet;
 }
-.blueviolet #contact{
-    background-color: #f57242;
+.blueviolet .social-icon i{
+    color: blueviolet;
 }
-.blueviolet #copywrite{
-    background-color: blueviolet;
+.blueviolet .common-heading h1{
+    color: blueviolet;
 }
-.blueviolet #blueviolet{
-    background-color: #fff;
+.blueviolet .common-heading h4{
+    color: blueviolet;
+}
+.blueviolet .common-btn a{
+    color: blueviolet;
+}
+.blueviolet .mixitup-menu button{
+    color: blueviolet;
+}
+.blueviolet .blog-details h1{
+    color: blueviolet;
+}
+.blueviolet .blog-details p{
+    color: blueviolet;
+}
+.blueviolet .blog-details a{
+    color: blueviolet;
+}
+.blueviolet .education h1{
+    color: blueviolet;
+}
+.blueviolet .experience h1{
+    color: blueviolet;
+}
+.blueviolet .details h2{
+    color: blueviolet;
+}
+.blueviolet .details p{
+    color: blueviolet;
+}
+.blueviolet .form-left h1{
+    color: blueviolet;
+}
+.blueviolet .form-label{
+    color: blueviolet;
+}
+.blueviolet .form-btn{
+    color: blueviolet;
+}
+.blueviolet #copywrite h1{
+    color: blueviolet;
 }
 
 /* ================= red operation ================ */
 
-.red .navbar{
-    background-color: red;
+.red .nav-item a{
+    color: red;
 }
-.red #banner{
-    background-color: #42f5f5;
+.red .nav-logo h1{
+    color: red;
 }
-.red #portfloio{
-    background-color: red;
+.red .owner-details h1{
+    color: red;
 }
-.red #blog{
-    background-color: #f542dd;
+.red .owner-details h3{
+    color: red;
 }
-.red #resume{
-    background-color: #42f5f5;
+.red .owner-details p{
+    color: red;
 }
-.red #contact{
-    background-color: red;
+.red .social-icon i{
+    color: red;
 }
-.red #copywrite{
-    background-color: red;
+.red .common-heading h1{
+    color: red;
 }
-.red #red{
-    background-color: #000;
+.red .common-heading h4{
+    color: red;
 }
+.red .common-btn a{
+    color: red;
+}
+.red .mixitup-menu button{
+    color: red;
+}
+.red .blog-details h1{
+    color: red;
+}
+.red .blog-details p{
+    color: red;
+}
+.red .blog-details a{
+    color: red;
+}
+.red .education h1{
+    color: red;
+}
+.red .experience h1{
+    color: red;
+}
+.red .details h2{
+    color: red;
+}
+.red .details p{
+    color: red;
+}
+.red .form-left h1{
+    color: red;
+}
+.red .form-label{
+    color: red;
+}
+.red .form-btn{
+    color: red;
+}
+.red #copywrite h1{
+    color: red;
+}
+
 
 /* ====================== yellow operation ======================== */
 
-.yellow .navbar{
-    background-color: #32a852;
+.yellow .nav-item a{
+    color: yellow;
 }
-.yellow #banner{
-    background-color: #f5424e;
+.yellow .nav-logo h1{
+    color: yellow;
 }
-.yellow #portfloio{
-    background-color: #f5a442;
+.yellow .owner-details h1{
+    color: yellow;
 }
-.yellow #blog{
-    background-color: #32a852;
+.yellow .owner-details h3{
+    color: yellow;
 }
-.yellow #resume{
-    background-color: #f5424e;
+.yellow .owner-details p{
+    color: yellow;
 }
-.yellow #contact{
-    background-color: #f542f5;
+.yellow .social-icon i{
+    color: yellow;
 }
-.yellow #copywrite{
-    background-color: #f5e942;
+.yellow .common-heading h1{
+    color: yellow;
 }
-.yellow #yellow{
-    background-color: wheat;
+.yellow .common-heading h4{
+    color: yellow;
+}
+.yellow .common-btn a{
+    color: yellow;
+}
+.yellow .mixitup-menu button{
+    color: yellow;
+}
+.yellow .blog-details h1{
+    color: yellow;
+}
+.yellow .blog-details p{
+    color: yellow;
+}
+.yellow .blog-details a{
+    color: yellow;
+}
+.yellow .education h1{
+    color: yellow;
+}
+.yellow .experience h1{
+    color: yellow;
+}
+.yellow .details h2{
+    color: yellow;
+}
+.yellow .details p{
+    color: yellow;
+}
+.yellow .form-left h1{
+    color: yellow;
+}
+.yellow .form-label{
+    color: yellow;
+}
+.yellow .form-btn{
+    color: yellow;
+}
+.yellow #copywrite h1{
+    color: yellow;
 }
 
 /* =========================== banner part start here=========================== */
@@ -542,3 +660,5 @@ h1,h2,h3,h4,h5,h6,p{
     text-transform: capitalize;
     font-weight: 400;
 }
+
+
