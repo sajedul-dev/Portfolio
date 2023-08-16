@@ -3,42 +3,364 @@
 
 @media(max-width:575.98px){
 
-    /* =========== navbar starat here ========== */
-
-   
-   
-   
-
-    /* =========== banner starat here ========== */
-
-    .owner-img{
-        display: none;
+/* ======================= navbar start here ========================== */
+    .ms-auto {
+        text-align: center;
     }
-
-     /* =========== portfolio starat here ========== */
-
-     .mixitup-menu button {
-        padding: 10px 4px;
+    .color-wrapper {
+        justify-content: right;
+        flex-direction: column;
+        row-gap: 10px;
     }
-    .common-heading h4{
-        line-height: 30px;
+    .owner-details p {
+        font-size: 15px;
+        text-align: center;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* =========== navbar starat here ========== */
-    /* =========== navbar starat here ========== */
-
+    .nav-item a {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+/* ===================== banner part start here ====================== */
+    #banner{
+        padding: 25px 0;
+    }
+    .banner-wrapper {
+        flex-direction: column;
+        padding: 0 5px;
+    }
+    .owner-img {
+        width: 100%;
+    }
+    .owner-details{
+        width: 100%;
+    }
+    .common-btn {
+        display: flex;
+        flex-direction: column;
+        row-gap: 6px;
+    }
+    .typed {
+        line-height: 35px;
+    }
+    .common-btn a {
+        padding: 10px 17px;
+        font-size: 17px;
+    }
+    .social-icon {
+        padding-bottom: 25px;
+    }
+    .social-icon i {
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+    /* ================== portfolio start here ================== */
+    .mixitup-menu button {
+        padding: 10px 1px;
+        font-size: 12px;
+    }
+    .common-heading h4 {
+        text-transform: capitalize;
+        font-size: 15px;
+    }
+    /* ================== blog part start here =================== */
+    #blog{
+        padding: 25px 0;
+    }
+    .blog-main {
+        height: 482px;
+        width: 100%;
+    }
+    /* ===================== resume start here ==================== */
+    .resume-wrapper {
+        flex-direction: column;
+    }
+    .education {
+        width: 100%;
+    }
+    .experience {
+        width: 100%;
+    }
+    .details h2, p {
+        line-height: -0.2;
+    }
+    .details h2, p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    /* ==================== form part start here ====================== */
+    #contact {
+        padding: 25px 0;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+    }
+    .text-box {
+        width: 100%;
+    }
+    .email-box {
+        width: 100%;
+    }
+    .common-heading h1{
+        font-size: 30px;
+    }
+    .form-left h1{
+        font-size: 20px;
+    }
+    .form-label {
+        font-size: 16px;
+    }
+    /* ================= copywrite part start here ================== */
+    #copywrite h1 {
+        font-size: 12px;
+        font-weight: 700;
+    }
 
 }
+/* ======================= Small device ============== */
+
+@media(min-width:576px) and (max-width:767.98px){
+
+        /* ======================= navbar start here ========================== */
+            .ms-auto {
+                text-align: center;
+            }
+            .color-wrapper {
+                column-gap: 100px;
+                justify-content: center;
+            }
+            .owner-details p {
+                font-size: 15px;
+                text-align: center;
+            }
+            .nav-item a {
+                padding: 10px 30px;
+                font-size: 13px;
+            }
+        /* ===================== banner part start here ====================== */
+            #banner{
+                padding: 25px 0;
+            }
+            .banner-wrapper {
+                flex-direction: column;
+                padding: 0 5px;
+            }
+            .owner-img {
+                width: 100%;
+            }
+            .owner-details{
+                width: 100%;
+            }
+            .common-btn {
+                display: flex;
+                flex-direction: column;
+                row-gap: 6px;
+            }
+            .typed {
+                line-height: 35px;
+            }
+            .common-btn a {
+                padding: 10px 17px;
+                font-size: 17px;
+            }
+            .social-icon {
+                padding-bottom: 25px;
+            }
+            .social-icon i {
+                font-size: 18px;
+                padding: 15px 15px;
+            }
+            /* ================== portfolio start here ================== */
+            .mixitup-menu button {
+                padding: 10px 18px;
+                font-size: 14px;
+            }
+            .common-heading h1{
+                font-size: 24px;
+            }
+            .common-heading h4 {
+                text-transform: capitalize;
+                font-size: 18px;
+            }
+            /* ================== blog part start here =================== */
+            #blog{
+                padding: 25px 0;
+            }
+            .blog-main {
+                height: 482px;
+                width: 100%;
+            }
+            /* ===================== resume start here ==================== */
+            .resume-wrapper {
+                flex-direction: column;
+            }
+            .education {
+                width: 100%;
+            }
+            .experience {
+                width: 100%;
+            }
+            .details h2, p {
+                line-height: -0.2;
+            }
+            .details h2, p {
+                font-size: 15px;
+                line-height: 22px;
+            }
+            /* ==================== form part start here ====================== */
+            #contact {
+                padding: 25px 0;
+            }
+            .contact-wrapper {
+                flex-direction: column;
+            }
+            .text-box {
+                width: 100%;
+            }
+            .email-box {
+                width: 100%;
+            }
+            .common-heading h1{
+                font-size: 30px;
+            }
+            .blueviolet .form-btn {
+                margin: 25px 0;
+            }
+            .form-left h1{
+                font-size: 20px;
+            }
+            .form-label {
+                font-size: 16px;
+            }
+            /* ================= copywrite part start here ================== */
+            #copywrite h1 {
+                font-size: 22px;
+                font-weight: 700;
+            }
+        
+}
+/*=================== Medium device =================== */
+
+@media(min-width:768px) and (max-width:991.98px){
+
+        /* ======================= navbar start here ========================== */
+            .ms-auto {
+                text-align: center;
+            }
+            .color-wrapper {
+                column-gap: 100px;
+                justify-content: center;
+                padding: 50px 0;
+            }
+            .owner-details p {
+                font-size: 15px;
+                text-align: center;
+            }
+            .nav-item a {
+                padding: 10px 30px;
+                font-size: 13px;
+            }
+        /* ===================== banner part start here ====================== */
+            #banner{
+                padding: 25px 0;
+            }
+            .banner-wrapper {
+                flex-direction: column;
+                padding: 0 5px;
+            }
+            .owner-img {
+                width: 100%;
+            }
+            .owner-details{
+                width: 100%;
+            }
+            .common-btn {
+                display: flex;
+                flex-direction: column;
+                row-gap: 6px;
+            }
+            .typed {
+                line-height: 35px;
+            }
+            .common-btn a {
+                padding: 10px 17px;
+                font-size: 17px;
+            }
+            .social-icon {
+                padding-bottom: 25px;
+            }
+            .social-icon i {
+                font-size: 18px;
+                padding: 15px 15px;
+            }
+            /* ================== portfolio start here ================== */
+            .mixitup-menu button {
+                padding: 10px 18px;
+                font-size: 14px;
+            }
+            .common-heading h1{
+                font-size: 24px;
+            }
+            .common-heading h4 {
+                text-transform: capitalize;
+                font-size: 18px;
+            }
+            /* ================== blog part start here =================== */
+            #blog{
+                padding: 25px 0;
+            }
+            .blog-main {
+                height: 482px;
+                width: 100%;
+            }
+            /* ===================== resume start here ==================== */
+            .resume-wrapper {
+                flex-direction: column;
+            }
+            .education {
+                width: 100%;
+            }
+            .experience {
+                width: 100%;
+            }
+            .details h2, p {
+                line-height: -0.2;
+            }
+            .details h2, p {
+                font-size: 15px;
+                line-height: 22px;
+            }
+            /* ==================== form part start here ====================== */
+            #contact {
+                padding: 25px 0;
+            }
+            .contact-wrapper {
+                flex-direction: column;
+            }
+            .text-box {
+                width: 100%;
+            }
+            .email-box {
+                width: 100%;
+            }
+            .common-heading h1{
+                font-size: 30px;
+            }
+            .blueviolet .form-btn {
+                margin: 25px 0;
+            }
+            .form-left h1{
+                font-size: 20px;
+            }
+            .form-label {
+                font-size: 16px;
+            }
+            /* ================= copywrite part start here ================== */
+            #copywrite h1 {
+                font-size: 22px;
+                font-weight: 700;
+            }
+        
+
+}
+
+

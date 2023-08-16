@@ -1,3 +1,5 @@
+/* ============================= css variable =================== */
+
 :root{
     --primary:#000;
     --secondary:#fff;
@@ -9,8 +11,9 @@
     --medium:500;
     --semibold:600;
     --bold:700;
-
 }
+
+/* =============================== working area ========================= */
 
 html,body{
     scroll-behavior: unset !important;
@@ -219,8 +222,6 @@ h1,h2,h3,h4,h5,h6,p{
 .red #copywrite h1{
     color: red;
 }
-
-
 /* ====================== yellow operation ======================== */
 
 .yellow .nav-item a{
@@ -300,7 +301,6 @@ h1,h2,h3,h4,h5,h6,p{
     height: 500px;
     width: 500px;
     overflow: hidden;
-    position: relative;
     position: relative;
 }
 .owner-img:hover{
@@ -406,7 +406,6 @@ h1,h2,h3,h4,h5,h6,p{
     font-weight: 500;
     font-family: sans-serif;
     color: var(--secondary);
-   
 }
 .mixitup-menu{
     display: flex;
