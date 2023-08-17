@@ -28,12 +28,6 @@
         flex-direction: column;
         padding: 0 5px;
     }
-    .owner-img {
-        width: 100%;
-    }
-    .owner-details{
-        width: 100%;
-    }
     .common-btn {
         display: flex;
         flex-direction: column;
@@ -67,8 +61,12 @@
         padding: 25px 0;
     }
     .blog-main {
-        height: 482px;
+        height: 350px;
         width: 100%;
+    }
+    .blog-details p {
+        font-size: 14px;
+        line-height: 20px;
     }
     /* ===================== resume start here ==================== */
     .resume-wrapper {
@@ -94,17 +92,17 @@
     .contact-wrapper {
         flex-direction: column;
     }
-    .text-box {
-        width: 100%;
-    }
-    .email-box {
-        width: 100%;
-    }
     .common-heading h1{
         font-size: 30px;
     }
     .form-left h1{
         font-size: 20px;
+    }
+    .email-box {
+        width: 100%;
+    }
+    .text-box {
+        width: 100%;
     }
     .form-label {
         font-size: 16px;
@@ -144,12 +142,6 @@
                 flex-direction: column;
                 padding: 0 5px;
             }
-            .owner-img {
-                width: 100%;
-            }
-            .owner-details{
-                width: 100%;
-            }
             .common-btn {
                 display: flex;
                 flex-direction: column;
@@ -187,17 +179,10 @@
             }
             .blog-main {
                 height: 482px;
-                width: 100%;
             }
             /* ===================== resume start here ==================== */
             .resume-wrapper {
                 flex-direction: column;
-            }
-            .education {
-                width: 100%;
-            }
-            .experience {
-                width: 100%;
             }
             .details h2, p {
                 line-height: -0.2;
@@ -212,12 +197,6 @@
             }
             .contact-wrapper {
                 flex-direction: column;
-            }
-            .text-box {
-                width: 100%;
-            }
-            .email-box {
-                width: 100%;
             }
             .common-heading h1{
                 font-size: 30px;
@@ -267,12 +246,6 @@
                 flex-direction: column;
                 padding: 0 5px;
             }
-            .owner-img {
-                width: 100%;
-            }
-            .owner-details{
-                width: 100%;
-            }
             .common-btn {
                 display: flex;
                 flex-direction: column;
@@ -310,17 +283,10 @@
             }
             .blog-main {
                 height: 482px;
-                width: 100%;
             }
             /* ===================== resume start here ==================== */
             .resume-wrapper {
                 flex-direction: column;
-            }
-            .education {
-                width: 100%;
-            }
-            .experience {
-                width: 100%;
             }
             .details h2, p {
                 line-height: -0.2;
@@ -335,12 +301,6 @@
             }
             .contact-wrapper {
                 flex-direction: column;
-            }
-            .text-box {
-                width: 100%;
-            }
-            .email-box {
-                width: 100%;
             }
             .common-heading h1{
                 font-size: 30px;
@@ -359,7 +319,6 @@
                 font-size: 22px;
                 font-weight: 700;
             }
-        
 
 }
 
