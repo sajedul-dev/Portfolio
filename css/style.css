@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ======================== navbar start here ========================= */
 .nav{
-    padding: 30px 0;
+    padding: 15px 0;
     background-color: var(--primary);
     border-bottom: 2px solid #fff;
 }
@@ -71,6 +71,10 @@ h1,h2,h3,h4,h5,h6,p{
     -moz-transition: all linear 0.3s;
     -ms-transition: all linear 0.3s;
     -o-transition: all linear 0.3s;
+}
+.nav-logo img{
+    width: 160px;
+    height: 60px;
 }
 
 /* ================ color swicher operation start here ================== */
@@ -385,7 +389,7 @@ h1,h2,h3,h4,h5,h6,p{
     box-shadow: var(--shadow);
 }
 
-/* =========================== Portflio part start here=========================== */
+/* =========================== Portfolio part start here=========================== */
 #portfloio{
     background-color: var(--primary);
     border-top: 2px solid red;
@@ -440,46 +444,14 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: var(--primary);
 }
 .fitures-img-box{
-    height: 200px;
-    max-width: 280px;
-    overflow: hidden;
-    position: relative;
-}
-.overlay-futures{
-    position: absolute;
-    opacity: 0;
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    background-color: #ffffffb3;
-    transition: all linear 0.3s;
+    height: 100px;
+    width: 200px;
     display: flex;
+    background-color: #888;
     align-items: center;
     justify-content: center;
 }
-.overlay-futures:hover{
-    opacity: 1;
-}
-.overlay-futures a{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 8px 15px;
-    background-color: blueviolet;
-    border-radius: 8px;
-    transition: all linear 0.3s;
-}
-.overlay-futures a:hover{
-    background-color: chartreuse;
-    color: #000;
-}
-.fitures-img-box img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
+
 /* =========================== blog part start here=========================== */
 
 #blog{
